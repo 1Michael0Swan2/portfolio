@@ -1,0 +1,98 @@
+/* General */
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding: 20px
+}
+
+h1 {
+    color: teal
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1.1em;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkslategray;
+}
+
+input, textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+}
+
+#response, #responseEmail {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: green;
+    font-style: italic;
+}
+
+/* Navigation Bar */
+
+nav {
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: teal;
+}
+
+/* Calculator */
+
+.calculator {
+    max-width: 200px;
+    margin: 20px auto;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+#display {
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.clear {
+    grid-column: span 4;
+    background: crimson;
+}
+
+.clear:hover {
+    background: darkred;
+}
