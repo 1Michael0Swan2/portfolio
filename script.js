@@ -1,4 +1,12 @@
+// Global Variables
 let displayValue = ""; // calculator.html
+
+/// /// ///
+
+// General Behaviour
+/*window.addEventListener("load", () => {
+    document.body.classList.add("loaded");
+});*/
 
 // index.html
 function sayHello() {
